@@ -6,7 +6,7 @@
 ```js
 let banane;
 
-alert(banane ?? "pomme");
+alert(banane ?? "pomme"); // pomme
 
 ```
 
@@ -15,7 +15,7 @@ alert(banane ?? "pomme");
 ```js
 let banane = "Trop bon";
 
-alert(banane ?? "pomme");
+alert(banane ?? "pomme"); // Trop bon
 
 ```
 
@@ -27,15 +27,19 @@ let poire = "Trop bon !";
 let banane = null;
 
 
-alert(pomme || poire || banane || "pas bon.");
+alert(pomme || poire || banane || "pas bon."); // Trop bon
 ```
 
 
 ## Après avoir effectué les exercices précédent pouvez vous dire:
 
-### Ce que retourne, par définition, l'opérateur "||" ?
+### Ce que retourne, par définition, l'opérateur "||" ? 
+
+ Cette opérateur retourne la première valeur definit ou la dernière lu par précédence 
 
 ### Ce que retourne, par définition, l'opérateur "??" ?
+
+ Cette opérateur retourne la valeur conditionnel si elle existe, si non elle retourne la dernière valeur lu par précédence
 
 
 # Precedence
@@ -51,11 +55,11 @@ alert(pomme || poire || banane || "pas bon.");
 ### Que retournent les opérations suivantes (se référer au opérateurs logiques) ?
 
 ```js
-let fruit = "poire" && "pomme" ?? "banane"
+let fruit = "poire" && "pomme" ?? "banane" // retourne une erreur
 ```
 
 ```js
-let fruit = ("poire" && "pomme") ?? "banane"
+let fruit = ("poire" && "pomme") ?? "banane" // retourne pomme
 
 alert(fruit)
 ```

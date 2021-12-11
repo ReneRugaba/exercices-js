@@ -2,3 +2,7 @@
       - Vous pourrez visualiser le résultat en ouvrant index.html dans votre navigateur.
       - N'oubliez pas de sauvegarder pour afficher les changements.
 */
+
+for (let i= 2;i <= 10; i++) {
+      alert(i)
+}
