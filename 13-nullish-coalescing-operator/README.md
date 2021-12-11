@@ -48,9 +48,12 @@ alert(pomme || poire || banane || "pas bon."); // Trop bon
 
 
 ### Faut il:
- #### utiliser ?? avec tous les autres opérateurs ?
+ #### utiliser ?? avec tous les autres opérateurs ? 
+    non
  #### ne jamais utiliser ??? avec tous les autres opérateurs ?
+    non
  #### quelques fois utiliser ?? avec les autres opérateurs ?
+    oui
 
 ### Que retournent les opérations suivantes (se référer au opérateurs logiques) ?
 
